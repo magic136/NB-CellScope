@@ -1,32 +1,45 @@
 # NB-CellScope
 
-**Neuroblastoma Single-Cell Resource**
+> **Neuroblastoma Single-Cell Atlas & Gene Expression Explorer**
 
-NB-CellScope is a research-facing web resource for exploring gene expression and cell-state heterogeneity in neuroblastoma (NB).
+[![Publication](https://img.shields.io/badge/Study-Frontiers%20of%20Medicine%202024-326bb5?style=flat-square)](https://doi.org/10.1007/s11684-024-1081-7)
+[![GEO](https://img.shields.io/badge/GEO-GSE223374-4a82cb?style=flat-square)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223374)
+![Cells](https://img.shields.io/badge/Cells-15%2C447-159994?style=flat-square)
+![Samples](https://img.shields.io/badge/Samples-8-6172bd?style=flat-square)
+![Website](https://img.shields.io/badge/Website-Preparing%20launch-8897a7?style=flat-square)
 
-- **Live website (after cloud deployment):** https://danbioinfo.tech/nb-cellscope/
-- **GitHub Pages landing (after enabling Pages):** https://magic136.github.io/NB-CellScope/
-- **Underlying GEO dataset:** [GSE223374](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223374)
-- **Publication:** [Nian et al., *Frontiers of Medicine* (2024)](https://doi.org/10.1007/s11684-024-1081-7)
+## 🌐 Online Platform
 
-## Resource overview
+**NB-CellScope web application:** [https://danbioinfo.tech/nb-cellscope/](https://danbioinfo.tech/nb-cellscope/)  
+*The website is being prepared for public launch; this GitHub repository is its project introduction.*
 
-The study comprises **15,447 single-cell profiles from 8 specimens and 6 patients**, including **two patients with matched primary and bone-marrow-metastasis specimens**. The deployed atlas is a reprocessed visualization of GEO data; its **19 clusters are not identical to the published study's six reported cell states**.
+## 🧬 Overview
 
-Available features on the hosted website include interactive UMAP visualization, gene-symbol search, per-sample and per-cluster filtering, data links, and publication references.
+**NB-CellScope** is an interactive research resource for exploring gene expression and cellular heterogeneity in **neuroblastoma (NB)**, with a focus on primary tumors and bone-marrow metastases.
 
-## How to access
+| Research cohort | Resource |
+| :-- | :-- |
+| **15,447** single-cell profiles | Unified UMAP and gene expression views |
+| **8** tumor specimens from **6** patients | Sample-aware data exploration |
+| **2** matched primary–metastatic pairs | Primary / metastasis comparison |
+| **19** reprocessed clusters | Exploratory cluster-level views |
 
-Use the hosted website above for interactive gene queries. This GitHub repository provides **research descriptions, citations, resource links and a GitHub Pages entry point**, not the private server implementation or complete gene-expression database. GitHub Pages does not run Python/SQLite APIs.
+## 🔬 Main Features
 
-## Citation
+- **Gene Expression Explorer** — Search a gene symbol to view normalized expression on a unified UMAP.
+- **Interactive Atlas** — Filter cells by sample, tumor site, and reprocessed cluster; export UMAP images.
+- **Research Reference** — Find the published starter-cell signature and key transcriptional programs.
+- **Data Resources** — Browse NB single-cell studies, original publications, and public dataset links.
 
-Nian Z, Wang D, Wang H, et al. Single-cell RNA-seq reveals the transcriptional program underlying tumor progression and metastasis in neuroblastoma. *Frontiers of Medicine*. 2024;18(4):690–707. https://doi.org/10.1007/s11684-024-1081-7
+> **Data interpretation:** The unified atlas was independently reprocessed from GEO count matrices. Its 19 clusters do **not** correspond one-to-one to the six malignant cell states reported in the original study.
 
-## Data availability
+## 📖 Featured Publication
 
-The study's count matrices and sample-level records are available in [GEO GSE223374](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223374). Reprocessed UMAP and expression visualizations are provided through the hosted NB-CellScope platform.
+Nian Z, Wang D, Wang H, et al. **Single-cell RNA-seq reveals the transcriptional program underlying tumor progression and metastasis in neuroblastoma.** *Frontiers of Medicine*. 2024;18(4):690–707.  
+**DOI:** [10.1007/s11684-024-1081-7](https://doi.org/10.1007/s11684-024-1081-7)
 
-## Project status
+## 📂 Data Availability
 
-The GitHub repository and Pages URLs above are **planned addresses** until you create the `NB-CellScope` repository and enable Pages. The live website address requires cloud deployment before it can be used.
+The study's public expression count matrices and sample-level records are deposited in **[GEO: GSE223374](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223374)**.
+
+This repository is a project summary and citation page, similar to EGFR-MutSentry; it does **not** host the complete expression database, Seurat RDS files, or backend server. The resource is intended for research use and is not a clinical diagnostic service.
