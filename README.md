@@ -6,12 +6,12 @@
 [![GEO](https://img.shields.io/badge/GEO-GSE223374-4a82cb?style=flat-square)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223374)
 ![Cells](https://img.shields.io/badge/Cells-15%2C447-159994?style=flat-square)
 ![Samples](https://img.shields.io/badge/Samples-8-6172bd?style=flat-square)
-![Website](https://img.shields.io/badge/Website-Preparing%20launch-8897a7?style=flat-square)
+[![Website](https://img.shields.io/badge/Website-Live-2da76b?style=flat-square)](https://danbioinfo.tech/nb-cellscope/)
 
 ## 🌐 Online Platform
 
 **NB-CellScope web application:** [https://danbioinfo.tech/nb-cellscope/](https://danbioinfo.tech/nb-cellscope/)  
-*The website is being prepared for public launch; this GitHub repository is its project introduction.*
+Access the live atlas to explore gene expression, browse datasets, and visualize the reprocessed neuroblastoma single-cell UMAP. This GitHub repository provides the project overview and publication references.
 
 ## 🧬 Overview
 
